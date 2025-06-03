@@ -1,11 +1,11 @@
-import './reset.css';
-import './App.css';
+import '/src/css/reset.css';
+import '/src/css/App.css';
 
 function Background () {
   return (
   <>
     <div className="background-game">
-      <img src="/origbig.png" alt="background" />
+      <img src="/src/assets/origbig.png" alt="background" />
     </div>
   </>
   );
