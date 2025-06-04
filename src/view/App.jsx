@@ -1,5 +1,6 @@
 import '/src/css/reset.css';
 import '/src/css/App.css';
+import HeroSprite from './animation/idle-animation';
 
 function Background () {
   return (
@@ -15,6 +16,9 @@ function App() {
   return (
     <div className="App">
       <Background />
+      <div className="gamePlayer">
+        <HeroSprite />
+      </div>
     </div>
   );
 }

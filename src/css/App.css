@@ -9,3 +9,8 @@
 html::-webkit-scrollbar {
   display: none; /* Safari and Chrome */
 }
+
+.gamePlayer {
+  position: absolute;
+    top: 50vh;
+}
