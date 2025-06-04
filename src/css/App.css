@@ -12,5 +12,5 @@ html::-webkit-scrollbar {
 
 .gamePlayer {
   position: absolute;
-    top: 40vh;
+  bottom: 20%;
 }
