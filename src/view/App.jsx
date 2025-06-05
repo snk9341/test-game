@@ -1,3 +1,5 @@
+import { useState } from "react";
+import { useEffect } from "react";
 import '/src/css/reset.css';
 import '/src/css/App.css';
 import HeroSprite from './animation/animation';
@@ -13,21 +15,30 @@ function Background () {
 }
 
 function App() {
+
+  const [swordsman, setSwordsman] = useState([]);
+
+  const getSwordsmanData = function () {
+    fetch("/data-animation/Swordsman.json")
+      .then((res) => res.json())
+      .then((data) => {
+        setSwordsman(data);
+      });
+  };
+
+  useEffect(() => {
+    getSwordsmanData();
+  }, []);
+
+
+
   return (
     <div className="App">
       <Background />
       <div className="gamePlayer">
         <HeroSprite
-        character={"Wizard"}      
-        status={"Idle.png"}
-        width={128}
-        height={128} 
-        scale={0.5}
-        direction={"vertical"}
-        shouldAnimate= {true}
-        frameCount={4}
+        data={swordsman}
         stopAnimation={false}
-        fps={8}
 />
       </div>
     </div>
