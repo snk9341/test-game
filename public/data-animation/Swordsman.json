@@ -13,7 +13,7 @@
     },
     {
         "status": "attack_1",
-        "path": "attack_1.png",
+        "path": "Attack_1.png",
         "frameCount": 6,
         "fps": 8.5
     },
@@ -21,7 +21,7 @@
         "status": "attack_2",
         "path": "Attack_2.png",
         "frameCount": 3,
-        "fps": 2.8
+        "fps": 3
     },
     {
         "status": "attack_3",

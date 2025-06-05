@@ -36,10 +36,12 @@ function App() {
     <div className="App">
       <Background />
       <div className="gamePlayer">
+        {swordsman.length > 0 &&
         <HeroSprite
-        data={swordsman}
+        data={swordsman[4]}
         stopAnimation={false}
 />
+}
       </div>
     </div>
   );
