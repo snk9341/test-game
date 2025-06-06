@@ -1,0 +1,62 @@
+[
+    {
+        "status": "idle",
+        "path": "Idle.png",
+        "frameCount": 6,
+        "fps": 8.5
+    },
+    {
+        "status": "idle_2",
+        "path": "Idle_2.png",
+        "frameCount": 5,
+        "fps": 6.5
+    },
+    {
+        "status": "attack_1",
+        "path": "Attack_1.png",
+        "frameCount": 10,
+        "fps": 13.2
+    },
+    {
+        "status": "attack_2",
+        "path": "Attack_2.png",
+        "frameCount": 4,
+        "fps": 5.8
+    },
+    {
+        "status": "attack_3",
+        "path": "Attack_3.png",
+        "frameCount": 7,
+        "fps": 10.7
+    },
+    {
+        "status": "hurt",
+        "path": "Hurt.png",
+        "frameCount": 4,
+        "fps": 5.8
+    },
+    {
+        "status": "dead",
+        "path": "Dead.png",
+        "frameCount": 4,
+        "fps": 5.8
+    },
+    {
+        "status": "jump",
+        "path": "Jump.png",
+        "frameCount": 11,
+        "fps": 14.2
+    },
+    {
+        "status": "run",
+        "path": "Run.png",
+        "frameCount": 8,
+        "fps": 11.5
+    },
+    {
+        "status": "walk",
+        "path": "Walk.png",
+        "frameCount": 7,
+        "fps": 10.4
+    }
+]

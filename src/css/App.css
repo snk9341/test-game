@@ -14,3 +14,15 @@ html::-webkit-scrollbar {
   position: absolute;
   bottom: 20%;
 }
+
+.second-player {
+  position: absolute;
+  bottom: 0%;
+  left: 75%;
+}
+
+.third-player {
+  position: absolute;
+  bottom: 0%;
+  left: 85%;
+}

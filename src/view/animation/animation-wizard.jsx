@@ -1,13 +1,13 @@
 import React from "react";
 import { SpriteAnimator } from "react-sprite-animator";
 
-const HeroSprite = ({data, stopAnimation}) => { 
+const Wizard_animator = ({data, stopAnimation}) => { 
     return (
     <SpriteAnimator 
-        sprite={"/src/assets/sprite-files/Swordsman/" + data.path}
+        sprite={"/src/assets/sprite-files/Wizard/" + data.path}
         width={128}
         height={128} 
-        scale={0.3}
+        scale={0.4}
         direction="vertical"
         shouldAnimate= {true}
         frameCount={data.frameCount}
@@ -17,4 +17,4 @@ const HeroSprite = ({data, stopAnimation}) => {
     />
     );
 };
-export default HeroSprite;
+export default Wizard_animator;
