@@ -3,6 +3,10 @@
   width: 100vw;
   height: 100vh;
 
+  position: absolute;
+  top: 0;
+  left: 0;
+
   z-index: 0;
 }
 
@@ -10,19 +14,26 @@ html::-webkit-scrollbar {
   display: none; /* Safari and Chrome */
 }
 
-.gamePlayer {
+.background-home-page {
+  width: 100vw;
+  height: 100vh;
+
   position: absolute;
-  bottom: 20%;
+  top: 0;
+  left: 0;
+
+  z-index: 1;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
 }
 
-.second-player {
-  position: absolute;
-  bottom: 0%;
-  left: 75%;
+.title-game {
+  margin-top: 15vh;
 }
 
-.third-player {
-  position: absolute;
-  bottom: 0%;
-  left: 85%;
+.title-text-game {
+  font-size: 5em;
 }

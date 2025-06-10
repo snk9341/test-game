@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useEffect } from "react";
 import '/src/css/reset.css';
 import '/src/css/App.css';
+import '/src/css/font.css';
 import Swordsman_animator from './animation/animation-swordsman';
 import Archer_animator from "./animation/animation-archer";
 import Wizard_animator from "./animation/animation-wizard";
@@ -13,6 +14,16 @@ function Background() {
         <img src="/src/assets/origbig.png" alt="background" />
       </div>
     </>
+  );
+}
+
+function Home_Page() {
+  return (
+    <div className="background-home-page">
+      <div className="title-game">
+        <span className="joti-one-regular title-text-game">Mon futur jeu</span>
+      </div>
+    </div>
   );
 }
 
@@ -57,28 +68,7 @@ function App() {
   return (
     <div className="App">
       <Background />
-      <div className="gamePlayer">
-        {swordsman.length > 0 &&
-          <Archer_animator
-            data={archer[4]}
-            stopAnimation={false}
-          />
-        }
-        <div className="second-player">
-          {archer.length > 0 &&
-            <Swordsman_animator
-              data={swordsman[2]}
-              stopAnimation={false}
-            />}
-          <div className="third-player">
-            {wizard.length > 0 &&
-              <Wizard_animator
-                data={wizard[2]}
-                stopAnimation={false}
-              />}
-          </div>
-        </div>
-      </div>
+      <Home_Page />
     </div>
   );
 }
