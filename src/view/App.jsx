@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import '/src/css/reset.css';
 import '/src/css/App.css';
 import '/src/css/font.css';
+import TestDatabase from './TestDatabase';
 import Swordsman_animator from './animation/animation-swordsman';
 import Archer_animator from "./animation/animation-archer";
 import Wizard_animator from "./animation/animation-wizard";
